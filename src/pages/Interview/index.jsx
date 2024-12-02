@@ -1,8 +1,9 @@
-import Head from "next/head";
+import Cards from "@/components/Card/Cards";
+import Interview from "@/components/Interview/Interview";
 import Curve from "@/components/Layout/Curve";
-import Hero from "@/components/Hero/Hero";
+import Head from "next/head";
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <Head>
@@ -11,8 +12,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Curve backgroundColor={"#B0AD98"}>
-        <Hero />
+      <Curve backgroundColor={"#BCF366"}>
+        <Interview />
+        <Cards />
       </Curve>
     </>
   );

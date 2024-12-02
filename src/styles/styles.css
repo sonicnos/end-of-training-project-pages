@@ -1,0 +1,276 @@
+.stairs .transition-container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+.stairs .transition-container div {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+.stairs .transition-background {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  z-index: 1;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+}
+
+.inner {
+  background-color: black;
+}
+.inner .page {
+  background-color: white;
+}
+.inner .slide {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+.curve svg, .curve .background {
+  position: fixed;
+  height: calc(100vh + 600px);
+  width: 100vw;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+}
+.curve .background {
+  background-color: black;
+  transition: opacity 0s linear 0.1s;
+}
+.curve .route {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  color: white;
+  font-size: 46px;
+  z-index: 3;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.main .header {
+  display: flex;
+  gap: 15px;
+  padding: 40px;
+  height: 30px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+}
+.main .header a {
+  text-decoration: none;
+  color: black;
+}
+.main .header a:hover {
+  text-decoration: underline;
+}
+.main h1 {
+  margin-top: 50px;
+}
+.main .body {
+  display: flex;
+  gap: 40px;
+}
+.main .hero {
+  height: 100vh;
+}
+.main .hero .Section_top {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  animation: change 20s infinite ease-in-out;
+}
+.main .hero .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+@keyframes change {
+  0% {
+    background-image: url(images/img1.jpg);
+  }
+  20% {
+    background-image: url(images/img2.jpg);
+  }
+  40% {
+    background-image: url(images/image.jpg);
+  }
+  60% {
+    background-image: url(images/img4.jpg);
+  }
+  80% {
+    background-image: url(images/img5.jpg);
+  }
+  100% {
+    background-image: url(images/img1.jpg);
+  }
+}
+
+.interview-section {
+  overflow: hidden;
+  height: 100vh;
+  font-size: 3.75rem;
+  line-height: 1;
+  font-weight: 700;
+  color: #000000;
+}
+
+.personna {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  background-color: #f59e0b;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.avatar-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px;
+  width: 20rem;
+  height: 20rem;
+  background-color: #60a5fa;
+}
+
+.interview-description {
+  display: flex;
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.avatar-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50%;
+  background-color: #ef4444;
+}
+
+.avatar-details p {
+  margin: 0;
+}
+
+.description-job-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  background-color: #10b981;
+}
+
+.description-job {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  width: 75%;
+  height: 66.666667%;
+}
+
+.cards {
+  position: relative;
+}
+
+.cardContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0px;
+}
+.cardContainer .card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -25%;
+  height: 500px;
+  width: 1000px;
+  border-radius: 25px;
+  padding: 50px;
+  transform-origin: top;
+}
+.cardContainer .card h2 {
+  text-align: center;
+  margin: 0px;
+  font-size: 28px;
+}
+.cardContainer .card .body {
+  display: flex;
+  height: 100%;
+  margin-top: 50px;
+  gap: 50px;
+}
+.cardContainer .card .body .description {
+  width: 40%;
+  position: relative;
+  top: 10%;
+}
+.cardContainer .card .body .description p {
+  font-size: 16px;
+}
+.cardContainer .card .body .description p::first-letter {
+  font-size: 28px;
+  font-family: "Title";
+}
+.cardContainer .card .body .description span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.cardContainer .card .body .description span a {
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.cardContainer .card .body .imageContainer {
+  position: relative;
+  width: 60%;
+  height: 100%;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.cardContainer .card .body .imageContainer .inner {
+  width: 100%;
+  height: 100%;
+}
+.cardContainer .card .body .imageContainer img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=styles.css.map */
