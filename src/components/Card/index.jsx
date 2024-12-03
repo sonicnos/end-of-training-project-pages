@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import styles from "@/components/Card/style.module.scss";
 import { useTransform, motion, useScroll } from "framer-motion";
 import { useRef } from "react";
 
@@ -24,18 +25,18 @@ const Card = ({
   const scale = useTransform(progress, range, [1, targetScale]);
 
   return (
-    <div ref={container} className="cardContainer">
+    <div ref={container} className={styles.cardContainer}>
       <motion.div
         style={{
           backgroundColor: color,
           scale,
           top: `calc(-5vh + ${i * 25}px)`,
         }}
-        className="card"
+        className={styles.card}
       >
         <h2>{title}</h2>
-        <div className="body">
-          <div className="description">
+        <div className={styles.body}>
+          <div className={styles.description}>
             <p>{description}</p>
             {/* <span>
               <a href={url} target="_blank">
@@ -56,8 +57,8 @@ const Card = ({
             </span> */}
           </div>
 
-          <div className="imageContainer">
-            <motion.div className="inner" style={{ scale: imageScale }}>
+          <div className={styles.imageContainer}>
+            <motion.div className={styles.inner} style={{ scale: imageScale }}>
               <Image fill src={`/images/${src}`} alt="image" />
             </motion.div>
           </div>
