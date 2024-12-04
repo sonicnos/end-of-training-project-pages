@@ -133,7 +133,7 @@
   transform: translate(-50%, -50%);
   text-transform: uppercase;
 }
-.main .hero .Section_top .interview-section {
+.main .interview-section {
   overflow: hidden;
   height: 100vh;
   font-size: 3.75rem;
@@ -141,20 +141,20 @@
   font-weight: 700;
   color: #000000;
 }
-.main .personna {
+.main .interview-section .personna {
   display: flex;
   width: 100%;
   height: 50%;
   background-color: #f59e0b;
 }
-.main .photo {
+.main .interview-section .photo {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50%;
   height: 100%;
 }
-.main .avatar-photo {
+.main .interview-section .avatar-photo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -163,7 +163,7 @@
   height: 20rem;
   background-color: #60a5fa;
 }
-.main .interview-description {
+.main .interview-section .interview-description {
   display: flex;
   -moz-column-gap: 5rem;
        column-gap: 5rem;
@@ -172,17 +172,17 @@
   width: 100%;
   height: 100%;
 }
-.main .avatar-details {
+.main .interview-section .avatar-details {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 50%;
   background-color: #ef4444;
 }
-.main .avatar-details p {
+.main .interview-section .avatar-details p {
   margin: 0;
 }
-.main .description-job-section {
+.main .interview-section .description-job-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -190,7 +190,7 @@
   height: 50%;
   background-color: #10b981;
 }
-.main .description-job {
+.main .interview-section .description-job {
   display: flex;
   justify-content: center;
   align-items: center;
