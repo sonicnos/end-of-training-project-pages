@@ -1,4 +1,5 @@
 import Cards from "@/components/Card/Cards";
+import Exposition from "@/components/Exposition/Exposition";
 import Curve from "@/components/Layout/Curve";
 import Head from "next/head";
 
@@ -12,7 +13,7 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Curve backgroundColor="#6E97D0">
-        <h1>Exposition</h1>
+        <Exposition />
       </Curve>
     </>
   );
