@@ -1,0 +1,67 @@
+.cardContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0px;
+}
+.cardContainer .card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -25%;
+  height: 500px;
+  width: 1000px;
+  border-radius: 25px;
+  padding: 50px;
+  transform-origin: top;
+}
+.cardContainer .card h2 {
+  text-align: center;
+  margin: 0px;
+  font-size: 28px;
+}
+.cardContainer .card .bodyCard {
+  display: flex;
+  height: 100%;
+  margin-top: 50px;
+  gap: 50px;
+}
+.cardContainer .card .bodyCard .descriptionCard {
+  width: 40%;
+  position: relative;
+  top: 10%;
+}
+.cardContainer .card .bodyCard .descriptionCard p {
+  font-size: 16px;
+}
+.cardContainer .card .bodyCard .descriptionCard p::first-letter {
+  font-size: 28px;
+  font-family: "Title";
+}
+.cardContainer .card .bodyCard .descriptionCard span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.cardContainer .card .bodyCard .descriptionCard span a {
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.cardContainer .card .bodyCard .imageContainerCard {
+  position: relative;
+  width: 60%;
+  height: 100%;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.cardContainer .card .bodyCard .imageContainerCard .inner {
+  width: 100%;
+  height: 100%;
+}
+.cardContainer .card .bodyCard .imageContainerCard img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.module.css.map */

@@ -64,7 +64,9 @@
   text-align: center;
 }
 
-.main .header {
+.main .navBar {
+  background-color: #60a5fa;
+  z-index: 2;
   display: flex;
   gap: 15px;
   padding: 40px;
@@ -73,15 +75,12 @@
   left: 0px;
   top: 0px;
 }
-.main .header a {
+.main .navBar a {
   text-decoration: none;
   color: black;
 }
-.main .header a:hover {
+.main .navBar a:hover {
   text-decoration: underline;
-}
-.main h1 {
-  margin-top: 50px;
 }
 .main .body {
   display: flex;
@@ -93,20 +92,13 @@
 .main .hero .Section_top {
   width: 100%;
   height: 100%;
-  background-image: url(images/image.jpg);
+  background-image: url(images/img6.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   justify-content: center;
-  animation: change 20s infinite ease-in-out;
-}
-.main .hero .content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-transform: uppercase;
+  animation: change 25s infinite ease-in-out;
 }
 @keyframes change {
   0% {
@@ -116,7 +108,7 @@
     background-image: url(images/img2.jpg);
   }
   40% {
-    background-image: url(images/image.jpg);
+    background-image: url(images/img3.jpg);
   }
   60% {
     background-image: url(images/img4.jpg);
@@ -125,11 +117,23 @@
     background-image: url(images/img5.jpg);
   }
   100% {
-    background-image: url(images/img1.jpg);
+    background-image: url(images/img6.jpg);
   }
 }
-
-.interview-section {
+.main .hero .Section_top .btnNext {
+  display: relative;
+  z-index: 2;
+  bottom: 0%;
+  right: 0%;
+}
+.main .hero .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+.main .hero .Section_top .interview-section {
   overflow: hidden;
   height: 100vh;
   font-size: 3.75rem;
@@ -137,23 +141,20 @@
   font-weight: 700;
   color: #000000;
 }
-
-.personna {
+.main .personna {
   display: flex;
   width: 100%;
   height: 50%;
   background-color: #f59e0b;
 }
-
-.photo {
+.main .photo {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50%;
   height: 100%;
 }
-
-.avatar-photo {
+.main .avatar-photo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -162,8 +163,7 @@
   height: 20rem;
   background-color: #60a5fa;
 }
-
-.interview-description {
+.main .interview-description {
   display: flex;
   -moz-column-gap: 5rem;
        column-gap: 5rem;
@@ -172,20 +172,17 @@
   width: 100%;
   height: 100%;
 }
-
-.avatar-details {
+.main .avatar-details {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 50%;
   background-color: #ef4444;
 }
-
-.avatar-details p {
+.main .avatar-details p {
   margin: 0;
 }
-
-.description-job-section {
+.main .description-job-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -193,8 +190,7 @@
   height: 50%;
   background-color: #10b981;
 }
-
-.description-job {
+.main .description-job {
   display: flex;
   justify-content: center;
   align-items: center;

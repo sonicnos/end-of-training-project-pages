@@ -35,8 +35,8 @@ const Card = ({
         className={styles.card}
       >
         <h2>{title}</h2>
-        <div className={styles.body}>
-          <div className={styles.description}>
+        <div className={styles.bodyCard}>
+          <div className={styles.descriptionCard}>
             <p>{description}</p>
             {/* <span>
               <a href={url} target="_blank">
@@ -57,7 +57,7 @@ const Card = ({
             </span> */}
           </div>
 
-          <div className={styles.imageContainer}>
+          <div className={styles.imageContainerCard}>
             <motion.div className={styles.inner} style={{ scale: imageScale }}>
               <Image fill src={`/images/${src}`} alt="image" />
             </motion.div>

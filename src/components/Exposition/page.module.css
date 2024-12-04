@@ -1,0 +1,18 @@
+.mainExpo {
+  background-color: white;
+}
+.mainExpo .expositionDetails {
+  height: 100vh;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainExpo .expositionDetails .container {
+  height: 80%;
+  width: 80%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=page.module.css.map */

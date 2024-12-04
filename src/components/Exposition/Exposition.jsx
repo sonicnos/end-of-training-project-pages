@@ -19,6 +19,9 @@ export default function Exposition() {
   return (
     <section className={styles.mainExpo}>
       <ZoomParallax />
+      <div className={styles.expositionDetails}>
+        <div className={styles.container}>test</div>
+      </div>
     </section>
   );
 }
