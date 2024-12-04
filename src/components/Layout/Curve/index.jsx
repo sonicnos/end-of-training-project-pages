@@ -5,9 +5,10 @@ import { useRouter } from "next/router";
 import { text, curve, translate } from "./anim";
 
 const routes = {
-  "/": "Home",
+  "/": "Accueil",
   "/Interview": "Interview",
   "/Exposition": "Exposition",
+  "/Conclusion": "Conclusion",
 };
 
 const anim = (variants) => {
