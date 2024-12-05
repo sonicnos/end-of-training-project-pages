@@ -1,11 +1,11 @@
 import styles from "@/components/Exposition/ZoomParallax/styles.module.scss";
-import Picture1 from "../../../../public/images/zoomParallax/1.jpeg";
-import Picture2 from "../../../../public/images/zoomParallax/2.jpeg";
+import Picture1 from "../../../../public/images/zoomParallax/1.jpg";
+import Picture2 from "../../../../public/images/zoomParallax/2.jpg";
 import Picture3 from "../../../../public/images/zoomParallax/3.jpg";
 import Picture4 from "../../../../public/images/zoomParallax/4.jpg";
 import Picture5 from "../../../../public/images/zoomParallax/5.jpg";
 import Picture6 from "../../../../public/images/zoomParallax/6.jpg";
-import Picture7 from "../../../../public/images/zoomParallax/7.jpeg";
+import Picture7 from "../../../../public/images/zoomParallax/7.jpg";
 import Image from "next/image";
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useRef } from "react";

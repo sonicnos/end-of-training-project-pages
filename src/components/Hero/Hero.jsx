@@ -1,17 +1,62 @@
-import Link from "next/link";
+"use client";
+import styles from "./page.module.css";
+import { useState, useEffect } from "react";
 
 const Hero = () => {
+  const [windowsWidth, setWindowsWidth] = useState(0);
+
+  useEffect(() => {
+    setWindowsWidth(window.innerWidth);
+  }, []);
+
+  const getBlocks = () => {
+    const blockSize = windowsWidth * 0.05;
+    const nbOfBlocks = Math.ceil(window.innerHeight / blockSize);
+    return [...Array(nbOfBlocks).keys()].map((_, index) => {
+      return (
+        <div
+          onMouseEnter={(e) => {
+            colorize(e.target);
+          }}
+          key={index}
+        ></div>
+      );
+    });
+  };
+
+  const colorize = (el) => {
+    el.style.backgroundColor = "black";
+    setTimeout(() => {
+      el.style.backgroundColor = "transparent";
+    }, 300);
+  };
   return (
-    <section className="hero">
-      <div className="Section_top">
-        <div className="content">
-          <h1 className="text-8xl text-white">Project de fin de formation</h1>
-        </div>
+    <div className={styles.container}>
+      <div className={styles.body}>
+        <p>We specialize in turning space into complexe shapes</p>
       </div>
-      <Link href="/Interview" className="btnNext">
-        Suivant
-      </Link>
-    </section>
+      <div className={styles.grid}>
+        {windowsWidth > 0 &&
+          [...Array(20).keys()].map((_, index) => {
+            return (
+              <div key={index} className={styles.column}>
+                {getBlocks()}
+              </div>
+            );
+          })}
+      </div>
+    </div>
+
+    // <section className="hero">
+    //   <div className="Section_top">
+    //     <div className="content">
+    //       <h1 className="text-8xl text-white">Project de fin de formation</h1>
+    //     </div>
+    //   </div>
+    //   <Link href="/Interview" className="btnNext">
+    //     Suivant
+    //   </Link>
+    // </section>
   );
 };
 
