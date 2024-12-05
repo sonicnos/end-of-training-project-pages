@@ -1,8 +1,25 @@
+"use client";
+
 import Exposition from "@/components/Exposition/Exposition";
 import Curve from "@/components/Layout/Curve";
 import Head from "next/head";
+import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 
 export default function ExpositionSection() {
+  const router = useRouter();
+  const changePath = router.route == "/Interview";
+  const [mounted, setMounted] = useState(false);
+  console.log(changePath);
+  // useEffect((changePath) => {
+  //   setTimeout(() => setMounted(false), 1);
+  // }),
+  //   [changePath];
+
+  useEffect(() => {
+    setTimeout(() => setMounted(true), 1000);
+  });
+
   return (
     <>
       <Head>
@@ -11,9 +28,7 @@ export default function ExpositionSection() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Curve backgroundColor="#6E97D0">
-        <Exposition />
-      </Curve>
+      <Curve backgroundColor="#6E97D0">{mounted ? <Exposition /> : ""}</Curve>
     </>
   );
 }

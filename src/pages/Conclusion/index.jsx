@@ -1,8 +1,16 @@
+"use client";
+
 import Conclution from "@/components/Conclusion/Conclusion";
 import Curve from "@/components/Layout/Curve";
 import Head from "next/head";
+import { useEffect, useState } from "react";
 
 export default function ConclutionSection() {
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => setMounted(true), 1000);
+  });
   return (
     <>
       <Head>
@@ -11,9 +19,7 @@ export default function ConclutionSection() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Curve backgroundColor="#6E97D0">
-        <Conclution />
-      </Curve>
+      <Curve backgroundColor="#6E97D0">{mounted ? <Conclution /> : ""}</Curve>
     </>
   );
 }

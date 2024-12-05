@@ -30,10 +30,11 @@ const Hero = () => {
       el.style.backgroundColor = "transparent";
     }, 300);
   };
+
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <div className={styles.body}>
-        <p>We specialize in turning space into complexe shapes</p>
+        <p>Project de fin de preformation</p>
       </div>
       <div className={styles.grid}>
         {windowsWidth > 0 &&
@@ -45,7 +46,7 @@ const Hero = () => {
             );
           })}
       </div>
-    </div>
+    </section>
 
     // <section className="hero">
     //   <div className="Section_top">
