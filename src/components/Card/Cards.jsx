@@ -5,6 +5,7 @@ import { useScroll } from "framer-motion";
 import { useEffect, useRef } from "react";
 import Lenis from "@studio-freight/lenis";
 import Card from ".";
+import Link from "next/link";
 
 export default function Cards() {
   const container = useRef(null);
@@ -39,6 +40,9 @@ export default function Cards() {
           />
         );
       })}
+      <Link className={styles.link} href="/Exposition">
+        Suivant
+      </Link>
     </section>
   );
 }

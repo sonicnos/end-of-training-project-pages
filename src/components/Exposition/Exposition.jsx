@@ -3,6 +3,7 @@ import styles from "./page.module.scss";
 import ZoomParallax from "@/components/Exposition/ZoomParallax/index";
 import { useEffect } from "react";
 import Lenis from "@studio-freight/lenis";
+import Link from "next/link";
 
 export default function Exposition() {
   useEffect(() => {
@@ -21,6 +22,9 @@ export default function Exposition() {
       <ZoomParallax />
       <div className={styles.expositionDetails}>
         <div className={styles.container}>test</div>
+        <Link className={styles.link} href="/Conclusion">
+          Suivant
+        </Link>
       </div>
     </section>
   );
