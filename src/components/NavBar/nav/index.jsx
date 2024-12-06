@@ -27,7 +27,8 @@ const navItems = [
 ];
 
 export default function index() {
-  const pathname = useRouter();
+  const router = useRouter();
+  const pathname = router.pathname;
   const [selectedIndicator, setSelectedIndicator] = useState(pathname);
 
   return (
