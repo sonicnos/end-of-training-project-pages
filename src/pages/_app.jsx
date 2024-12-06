@@ -2,7 +2,7 @@ import "@/styles/globals.css";
 import { AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import "@/styles/styles.scss";
-import NavBar from "@/components/NavBar/NavBAr";
+import NavBar from "@/components/NavBar/NavBar";
 
 export default function App({ Component, pageProps, router }) {
   return (
