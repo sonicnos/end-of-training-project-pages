@@ -27,9 +27,9 @@ const navItems = [
 ];
 
 export default function index() {
-  const router = useRouter();
-  const pathname = router.pathname;
-  const [selectedIndicator, setSelectedIndicator] = useState(pathname);
+  // const router = useRouter();
+  // const pathname = router.pathname;
+  // const [selectedIndicator, setSelectedIndicator] = useState(pathname);
 
   return (
     <motion.div
@@ -41,9 +41,9 @@ export default function index() {
     >
       <div className={styles.body}>
         <div
-          onMouseLeave={() => {
-            setSelectedIndicator(pathname);
-          }}
+          // onMouseLeave={() => {
+          //   setSelectedIndicator(pathname);
+          // }}
           className={styles.nav}
         >
           <div className={styles.header}>
@@ -54,8 +54,9 @@ export default function index() {
               <Link
                 key={index}
                 data={{ ...data, index }}
-                isActive={selectedIndicator == data.href}
-                setSelectedIndicator={setSelectedIndicator}
+                // isActive={selectedIndicator == data.href}
+                isActive={data.href}
+                // setSelectedIndicator={setSelectedIndicator}
               ></Link>
             );
           })}
