@@ -2,14 +2,9 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import styles from "./page.module.css";
 
-const phrases = [
-  "It is a long established fact",
-  "that a reader will be distracted",
-  "by the readable content of a page",
-  "when looking at its layout.",
-];
+const phrases = ["Conclusion"];
 
-const MaskText = () => {
+const MaskTitle = () => {
   const animation = {
     initial: { y: "100%" },
     enter: (i) => ({
@@ -28,7 +23,7 @@ const MaskText = () => {
   });
 
   return (
-    <div ref={ref} className={styles.bodyText}>
+    <div ref={ref} className={styles.bodyTitle}>
       {phrases.map((phrase, index) => {
         return (
           <div key={index} className={styles.lineMask}>
@@ -47,4 +42,4 @@ const MaskText = () => {
   );
 };
 
-export default MaskText;
+export default MaskTitle;

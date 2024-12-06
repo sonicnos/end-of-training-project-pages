@@ -2,16 +2,21 @@
 
 .container {
   font-family: "Inter", sans-serif;
+  height: 100vh;
   display: flex;
-  padding-top: 20rem;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 20vw;
+  gap: 8vw;
 }
 
-.body {
-  font-size: 5vw;
+.bodyTitle {
+  margin-top: 400px;
+  font-size: 4vw;
+}
+
+.bodyText {
+  font-size: 2vw;
 }
 
 .lineMask {

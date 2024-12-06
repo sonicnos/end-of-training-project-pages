@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import styles from "./page.module.css";
 import { useState, useEffect } from "react";
 
@@ -45,6 +46,9 @@ const Hero = () => {
               </div>
             );
           })}
+        <Link className={styles.link} href="/Interview">
+          Suivant
+        </Link>
       </div>
     </section>
 
