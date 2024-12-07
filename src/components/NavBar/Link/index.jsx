@@ -9,9 +9,9 @@ export default function Index({ data, isActive, setSelectedIndicator }) {
   return (
     <motion.div
       className={styles.link}
-      // onMouseEnter={() => {
-      //   setSelectedIndicator(href);
-      // }}
+      onMouseEnter={() => {
+        setSelectedIndicator(href);
+      }}
       custom={index}
       variants={slide}
       initial="initial"
