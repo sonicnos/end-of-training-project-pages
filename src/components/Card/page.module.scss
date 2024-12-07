@@ -5,6 +5,12 @@
 
 .link {
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: 150px;
+  background: aqua;
   bottom: -4700px;
   right: 163px;
 }

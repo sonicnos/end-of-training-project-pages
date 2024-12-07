@@ -2,6 +2,7 @@
 import Link from "next/link";
 import styles from "./page.module.css";
 import { useState, useEffect } from "react";
+import ButtonMagnetic from "../ButtonMagnetic/ButtonMagnetic";
 
 const Hero = () => {
   const [windowsWidth, setWindowsWidth] = useState(0);
@@ -47,7 +48,7 @@ const Hero = () => {
             );
           })}
         <Link className={styles.link} href="/Interview">
-          Suivant
+          <ButtonMagnetic>Suivant</ButtonMagnetic>
         </Link>
       </div>
     </section>

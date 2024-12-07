@@ -4,6 +4,7 @@ import ZoomParallax from "@/components/Exposition/ZoomParallax/index";
 import { useEffect } from "react";
 import Lenis from "@studio-freight/lenis";
 import Link from "next/link";
+import ButtonMagnetic from "../ButtonMagnetic/ButtonMagnetic";
 
 export default function Exposition() {
   useEffect(() => {
@@ -23,7 +24,7 @@ export default function Exposition() {
       <div className={styles.expositionDetails}>
         <div className={styles.container}>test</div>
         <Link className={styles.link} href="/Conclusion">
-          Suivant
+          <ButtonMagnetic>Suivant</ButtonMagnetic>
         </Link>
       </div>
     </section>
