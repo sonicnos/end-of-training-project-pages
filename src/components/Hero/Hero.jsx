@@ -47,7 +47,15 @@ const Hero = () => {
               </div>
             );
           })}
-        <Link className={styles.link} href="/Interview">
+
+        <Link
+          className={styles.link}
+          href={
+            process.env.NEXT_PUBLIC_APP_ENV === "DEV"
+              ? "/interview"
+              : "/loukas/interview"
+          }
+        >
           <ButtonMagnetic>Suivant</ButtonMagnetic>
         </Link>
       </div>

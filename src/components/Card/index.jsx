@@ -59,7 +59,7 @@ const Card = ({
 
           <div className={styles.imageContainerCard}>
             <motion.div className={styles.inner} style={{ scale: imageScale }}>
-              <Image fill src={`/images/${src}`} alt="image" />
+              {/* <Image fill src={`/images/${src}`} alt="image" /> */}
             </motion.div>
           </div>
         </div>
