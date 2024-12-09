@@ -14,15 +14,15 @@ const navItems = [
   },
   {
     title: "Interview",
-    href: "/Interview",
+    href: "/interview",
   },
   {
     title: "Exposition",
-    href: "/Exposition",
+    href: "/exposition",
   },
   {
     title: "Conclusion",
-    href: "/Conclusion",
+    href: "/conclusion",
   },
 ];
 

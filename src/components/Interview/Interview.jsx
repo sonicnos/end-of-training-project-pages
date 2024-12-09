@@ -1,21 +1,21 @@
-import React from "react";
-import Cards from "../Card/Cards";
+import Image from "next/image";
+import personaImg from "../../../public/images/personna.png";
 
 const Interview = () => {
   return (
     <section className="interview-section">
       <div className="personna">
         <div className="photo">
-          <div className="avatar-photo">photo</div>
+          <Image src={personaImg} className="avatar-photo" />
         </div>
         <div className="interview-description">
           <div className="avatar-details">
-            <p>Name</p>
-            <p>Surname</p>
+            <p>Eli</p>
+            <p>Talpalariu</p>
           </div>
           <div className="avatar-details">
-            <p>Company</p>
-            <p>Experience job</p>
+            <p>VALKUREN</p>
+            <p>Full Stack Web Developer</p>
           </div>
         </div>
       </div>

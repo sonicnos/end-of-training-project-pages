@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 .stairs .transition-container {
   position: fixed;
   width: 100vw;
@@ -41,13 +42,15 @@
   z-index: 1;
 }
 
-.curve svg, .curve .background {
+.curve svg,
+.curve .background {
   position: fixed;
   height: calc(100vh + 600px);
   width: 100vw;
   pointer-events: none;
   left: 0;
   top: 0;
+  z-index: 10;
 }
 .curve .background {
   background-color: black;
@@ -62,9 +65,10 @@
   z-index: 3;
   transform: translateX(-50%);
   text-align: center;
+  z-index: 11;
 }
 
-.main .navBar {
+.navMain .navBar {
   background-color: #60a5fa;
   z-index: 2;
   display: flex;
@@ -75,14 +79,16 @@
   left: 0px;
   top: 0px;
 }
-.main .navBar a {
+.navMain .navBar a {
   text-decoration: none;
   color: black;
 }
-.main .navBar a:hover {
+.navMain .navBar a:hover {
   text-decoration: underline;
 }
-.main .interview-section {
+
+.interview-section {
+  font-family: "Inter", sans-serif;
   overflow: hidden;
   height: 100vh;
   font-size: 3.75rem;
@@ -90,20 +96,21 @@
   font-weight: 700;
   color: #000000;
 }
-.main .interview-section .personna {
+.interview-section .personna {
   display: flex;
+  gap: 0;
   width: 100%;
   height: 50%;
   background-color: #f59e0b;
 }
-.main .interview-section .photo {
+.interview-section .photo {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50%;
   height: 100%;
 }
-.main .interview-section .avatar-photo {
+.interview-section .avatar-photo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,7 +119,7 @@
   height: 20rem;
   background-color: #60a5fa;
 }
-.main .interview-section .interview-description {
+.interview-section .interview-description {
   display: flex;
   -moz-column-gap: 5rem;
        column-gap: 5rem;
@@ -121,17 +128,17 @@
   width: 100%;
   height: 100%;
 }
-.main .interview-section .avatar-details {
+.interview-section .avatar-details {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 50%;
   background-color: #ef4444;
 }
-.main .interview-section .avatar-details p {
+.interview-section .avatar-details p {
   margin: 0;
 }
-.main .interview-section .description-job-section {
+.interview-section .description-job-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,7 +146,7 @@
   height: 50%;
   background-color: #10b981;
 }
-.main .interview-section .description-job {
+.interview-section .description-job {
   display: flex;
   justify-content: center;
   align-items: center;
