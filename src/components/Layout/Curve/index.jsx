@@ -6,9 +6,9 @@ import { text, curve, translate } from "./anim";
 
 const routes = {
   "/": "Accueil",
-  "/Interview": "Interview",
-  "/Exposition": "Exposition",
-  "/Conclusion": "Conclusion",
+  "/interview": "Interview",
+  "/exposition": "Exposition",
+  "/conclusion": "Conclusion",
 };
 
 const anim = (variants) => {

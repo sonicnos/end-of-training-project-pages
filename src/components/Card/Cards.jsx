@@ -41,7 +41,7 @@ export default function Cards() {
           />
         );
       })}
-      <Link className={styles.link} href="/Exposition">
+      <Link className={styles.link} href="/exposition">
         <ButtonMagnetic>Suivant</ButtonMagnetic>
       </Link>
     </section>
