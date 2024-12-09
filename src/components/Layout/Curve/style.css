@@ -1,10 +1,12 @@
-.curve svg, .curve .background {
+.curve svg,
+.curve .background {
   position: fixed;
   height: calc(100vh + 600px);
   width: 100vw;
   pointer-events: none;
   left: 0;
   top: 0;
+  z-index: 10;
 }
 .curve .background {
   background-color: black;
@@ -19,4 +21,5 @@
   z-index: 3;
   transform: translateX(-50%);
   text-align: center;
+  z-index: 11;
 }/*# sourceMappingURL=style.css.map */

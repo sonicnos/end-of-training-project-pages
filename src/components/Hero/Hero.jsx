@@ -56,7 +56,9 @@ const Hero = () => {
               : "/loukas/interview"
           }
         >
-          <ButtonMagnetic>Suivant</ButtonMagnetic>
+          <ButtonMagnetic>
+            <div className={styles.button}>Suivant</div>
+          </ButtonMagnetic>
         </Link>
       </div>
     </section>

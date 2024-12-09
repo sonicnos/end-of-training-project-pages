@@ -9,12 +9,22 @@
   align-items: center;
 }
 .mainExpo .expositionDetails .container {
-  height: 75%;
-  width: 75%;
+  height: 70%;
+  width: 70%;
   background-color: rgb(80, 121, 121);
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+}
+.mainExpo .expositionDetails .container .title {
+  background-color: aquamarine;
+  font-size: 3rem;
+}
+.mainExpo .expositionDetails .container .description {
+  font-size: 2rem;
+  background: red;
 }
 .mainExpo .expositionDetails .link {
   position: absolute;
