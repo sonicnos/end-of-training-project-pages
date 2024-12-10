@@ -37,7 +37,7 @@ const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.body}>
-        <p>Project de fin de preformation</p>
+        <p>Projet de fin de préformation</p>
       </div>
       <div className={styles.grid}>
         {windowsWidth > 0 &&
@@ -63,17 +63,6 @@ const Hero = () => {
         </Link>
       </div>
     </section>
-
-    // <section className="hero">
-    //   <div className="Section_top">
-    //     <div className="content">
-    //       <h1 className="text-8xl text-white">Project de fin de formation</h1>
-    //     </div>
-    //   </div>
-    //   <Link href="/Interview" className="btnNext">
-    //     Suivant
-    //   </Link>
-    // </section>
   );
 };
 

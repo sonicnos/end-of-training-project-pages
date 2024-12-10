@@ -48,19 +48,12 @@ export default function Exposition() {
         >
           <h1 className={styles.title}>titre</h1>
           <p className={styles.description}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui
-            explicabo repellat excepturi asperiores. Illo voluptate, adipisci
-            illum nam magnam reiciendis sequi enim nobis reprehenderit corrupti
-            modi amet? Debitis fugiat consequuntur, quam iusto eum, nihil
-            asperiores possimus, illo voluptatum aspernatur ipsum iste. Eos
-            perspiciatis aspernatur labore. Quam mollitia asperiores
-            exercitationem harum eveniet eius, blanditiis sed dolore officia
-            recusandae neque fuga, sit itaque cumque eligendi optio enim
-            veritatis quo rerum dolores doloribus necessitatibus laborum! Quod
-            earum, ut minus est culpa quae illum eos explicabo facere.
-            Blanditiis, rem! Officiis ut reprehenderit eligendi aliquid. Quas
-            molestias officiis quia veritatis molestiae deleniti harum velit
-            suscipit?
+            Les parapluies me rappellent toujours le temps bruxellois,
+            imprévisible et souvent pluvieux. Cette salle du musée, avec ses
+            expositions sur les différents quartiers de Bruxelles, m'a
+            particulièrement touché. Chaque parapluie suspendu semble raconter
+            une histoire unique, reflétant la diversité et le côté multiculturel
+            de cette ville fascinante.
           </p>
         </motion.div>
         <Link className={styles.link} href="/conclusion">
