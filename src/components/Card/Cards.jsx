@@ -7,6 +7,7 @@ import Lenis from "@studio-freight/lenis";
 import Card from ".";
 import Link from "next/link";
 import ButtonMagnetic from "../ButtonMagnetic/ButtonMagnetic";
+import Button from "../Button/Button";
 
 export default function Cards() {
   const container = useRef(null);
@@ -42,7 +43,9 @@ export default function Cards() {
         );
       })}
       <Link className={styles.link} href="/exposition">
-        <ButtonMagnetic>Suivant</ButtonMagnetic>
+        <ButtonMagnetic>
+          <Button />
+        </ButtonMagnetic>
       </Link>
     </section>
   );

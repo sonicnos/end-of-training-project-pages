@@ -46,11 +46,6 @@
   justify-content: center;
   height: 150px;
   width: 150px;
-  background: aqua;
   bottom: 100px;
   right: 160px;
-}
-
-.button {
-  background: red;
 }

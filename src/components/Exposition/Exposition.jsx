@@ -6,6 +6,7 @@ import Lenis from "@studio-freight/lenis";
 import Link from "next/link";
 import ButtonMagnetic from "../ButtonMagnetic/ButtonMagnetic";
 import { motion, useInView } from "framer-motion";
+import Button from "../Button/Button";
 
 export default function Exposition() {
   const containerRef = useRef(null);
@@ -63,7 +64,9 @@ export default function Exposition() {
           </p>
         </motion.div>
         <Link className={styles.link} href="/conclusion">
-          <ButtonMagnetic>Suivant</ButtonMagnetic>
+          <ButtonMagnetic>
+            <Button />
+          </ButtonMagnetic>
         </Link>
       </div>
     </section>

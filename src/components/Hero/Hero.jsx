@@ -3,6 +3,7 @@ import Link from "next/link";
 import styles from "./page.module.css";
 import { useState, useEffect } from "react";
 import ButtonMagnetic from "../ButtonMagnetic/ButtonMagnetic";
+import Button from "../Button/Button";
 
 const Hero = () => {
   const [windowsWidth, setWindowsWidth] = useState(0);
@@ -57,7 +58,7 @@ const Hero = () => {
           }
         >
           <ButtonMagnetic>
-            <div className={styles.button}>Suivant</div>
+            <Button />
           </ButtonMagnetic>
         </Link>
       </div>
