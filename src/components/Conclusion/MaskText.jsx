@@ -3,10 +3,12 @@ import { useInView } from "react-intersection-observer";
 import styles from "./page.module.css";
 
 const phrases = [
-  "It is a long established fact",
-  "that a reader will be distracted",
-  "by the readable content of a page",
-  "when looking at its layout.",
+  "En conclusion, après avoir rencontré Eli Talpalariu, j'ai été profondément inspiré par son parcours et ses ",
+  "réalisations dans le domaine du développement web. Cette rencontre a renforcé ma détermination ",
+  "à poursuivre ma formation et à acquérir les compétences nécessaires pour devenir, moi aussi, ",
+  "un développeur web accompli. Je suis convaincu que, grâce à mon engagement et à ma passion ",
+  "pour ce domaine, je pourrai un jour contribuer de manière significative à des projets innovants et ",
+  "à l'évolution de la technologie.",
 ];
 
 const MaskText = () => {

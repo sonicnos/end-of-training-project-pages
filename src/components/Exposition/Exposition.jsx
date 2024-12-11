@@ -46,7 +46,9 @@ export default function Exposition() {
             },
           }}
         >
-          <h1 className={styles.title}>titre</h1>
+          <h1 className={styles.title}>
+            Les Parapluies de Bruxelles : Reflets d'une Ville Multiculturelle
+          </h1>
           <p className={styles.description}>
             Les parapluies me rappellent toujours le temps bruxellois,
             imprévisible et souvent pluvieux. Cette salle du musée, avec ses
