@@ -50,7 +50,7 @@ export default function Exposition() {
           <p className={styles.description}>
             Les parapluies me rappellent toujours le temps bruxellois,
             imprévisible et souvent pluvieux. Cette salle du musée, avec ses
-            expositions sur les différents quartiers de Bruxelles, m'a
+            expositions sur les différents quartiers de Bruxelles, m&apos;a
             particulièrement touché. Chaque parapluie suspendu semble raconter
             une histoire unique, reflétant la diversité et le côté multiculturel
             de cette ville fascinante.
