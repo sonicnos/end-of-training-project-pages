@@ -20,7 +20,14 @@ const Interview = () => {
         </div>
       </div>
       <div className="description-job-section">
-        <div className="description-job ">Description job</div>
+        <div className="description-job ">
+          Je suis Eli, D&eacute;veloppeur Full Stack chez Valkuren, une
+          soci&eacute;t&eacute; sp&eacute;cialis&eacute;e dans le
+          d&eacute;veloppement de solutions Big Data. Nos activit&eacute;s
+          principales incluent la gestion et l&apos;analyse de donn&eacute;es,
+          l&apos;intelligence artificielle et le machine learning dans trois
+          domaines : manufacturing, mobilit&eacute; et marketing.
+        </div>
       </div>
     </section>
   );

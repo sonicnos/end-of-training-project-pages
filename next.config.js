@@ -2,7 +2,7 @@
 const path = require("path");
 
 const nextConfig = {
-  // assetPrefix: './',
+  // assetPrefix: "https://2025.webdev-cf2m.be/loukas/",
   // trailingSlash: true,
   output: "export",
   images: {

@@ -1,32 +1,36 @@
 export const projects = [
   {
-    title: "Matthias Leidinger",
+    title:
+      "Quelles sont vos principales responsabilités dans votre poste actuel?",
     description:
-      "Originally hailing from Austria, Berlin-based photographer Matthias Leindinger is a young creative brimming with talent and ideas.",
-    color: "#BBACAF",
+      "En tant que Développeur Full Stack, je travaille sur des applications web complètes, du Front End au Back End. Il arrive que je réalise aussi des sites vitrines. Je développe des applications web avec authentification en intégrant des Dashboards, Data pipelines et autres éléments créés par les Data Scientists. J'intègre également des services cloud, par exemple pour le chargement de fichiers, l'envoi d'emails, etc.Ma précédente expérience dans la gestion de serveurs et le cloud m'est utile. Le UI/UX Design m'intéresse aussi pour développer des applications intuitives que les utilisateurs vont aimer utiliser et qui répondent bien à leurs besoins et problématiques.",
+    color: "#e2e8f0",
   },
   {
-    title: "Clément Chapillon",
+    title:
+      "Quelles technologies et langages de programmation utilisez-vous le plus fréquemment dans votre travail?",
     description:
-      "This is a story on the border between reality and imaginary, about the contradictory feelings that the insularity of a rocky, arid, and wild territory provokes”—so French photographer Clément Chapillon describes his latest highly captivating project Les rochers fauves (French for ‘The tawny rocks’).",
-    color: "#977F6D",
+      "Je code principalement en Typescript avec le framework Next.js, basé sur React et Node.js. Il arrive que je travaille aussi en Python (le langage préféré des Data Scientists) et en php car c'est un language encore utilisé par pas mal de sites, notamment dû à la popularité de wordpress.",
+    color: "#cbd5e1",
   },
   {
-    title: "Zissou",
+    title: "À quoi ressemble une journée de travail typique pour vous?",
     description:
-      "Though he views photography as a medium for storytelling, Zissou’s images don’t insist on a narrative. Both crisp and ethereal, they’re encoded with an ambiguity—a certain tension—that lets the viewer find their own story within them.",
-    color: "#C2491D",
+      "Le matin, je liste mes tâches, consulte mes notes, mes mails et mon calendrier. Il y a souvent un stand-up meeting avec l'équipe pour discuter du progrès et identifier d'éventuels blocages. Ensuite, je commence par les tâches les plus urgentes, importantes ou difficiles. À midi, si on n'est pas en télétravail, on mange ensemble avec l'équipe. En fin de journée, on fait parfois un point rapide informel sur les avancées.",
+    color: "#94a3b8",
   },
   {
-    title: "Mathias Svold and Ulrik Hasemann",
+    title:
+      "Quels sont les plus grands défis auxquels vous êtes confronté dans votre travail?",
     description:
-      "The coastlines of Denmark are documented in tonal colors in a pensive new series by Danish photographers Ulrik Hasemann and Mathias Svold; an ongoing project investigating how humans interact with and disrupt the Danish coast.",
-    color: "#B62429",
+      "L'un des défis majeurs est de collaborer avec des Data Scientists et autres rôles différents. Nos jargons, vocabulaires et domaines de connaissances sont très différents, ce qui peut entraîner des incompréhensions. Pour cela, j'essaye de m'addapter à mes interlocuteurs et simplifier les explications quand c'est nécessaire. Avec le temps, chacun apprend beaucoup des autres, ce qui enrichit la collaboration.",
+    color: "#64748b",
   },
   {
-    title: "Mark Rammers",
+    title:
+      "Pouvez-vous décrire un projet sur lequel vous avez travaillé et qui était particulièrement intéressant ou difficile?",
     description:
-      "Dutch photographer Mark Rammers has shared with IGNANT the first chapter of his latest photographic project, ‘all over again’—captured while in residency at Hektor, an old farm in Los Valles, Lanzarote. Titled ‘Beginnings’, the mesmerizing collection of images is a visual and meditative journey into the origins of regrets and the uncertainty of stepping into new unknowns.",
-    color: "#88A28D",
+      "J'ai travaillé sur une fonctionnalité permettant de charger des fichiers contenant des données, avec un historique et la possibilité de les télécharger et supprimer. Il a fallu connecter un service cloud pour le stockage, gérer la base de données pour l'historique et bien relier le Front End et Back End.",
+    color: "#334155",
   },
 ];
