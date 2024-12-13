@@ -5,7 +5,6 @@ import { useRouter } from "next/router";
 import { menuSlide } from "../anim";
 import Link from "../Link";
 import Curve from "../Curve";
-import Footer from "../Footer";
 
 const navItems = [
   {
@@ -46,22 +45,17 @@ export default function Index() {
           }}
           className={styles.nav}
         >
-          <div className={styles.header}>
-            <p>Navigation</p>
-          </div>
           {navItems.map((data, index) => {
             return (
               <Link
                 key={index}
                 data={{ ...data, index }}
                 isActive={selectedIndicator == data.href}
-                // isActive={data.href}
                 setSelectedIndicator={setSelectedIndicator}
               ></Link>
             );
           })}
         </div>
-        {/* <Footer /> */}
       </div>
       <Curve />
     </motion.div>

@@ -37,7 +37,7 @@ export default function Exposition() {
           className={styles.container}
           initial="hidden"
           whileInView="visible"
-          transition={{ duration: 2.25 }}
+          transition={{ duration: 2 }}
           variants={{
             hidden: { opacity: 0, y: 200 },
             visible: {

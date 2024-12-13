@@ -11,7 +11,7 @@
     .container {
       height: 60%;
       width: 60%;
-
+      position: relative;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -26,7 +26,7 @@
     }
     .link {
       position: absolute;
-      bottom: -3000px;
+      bottom: -2750px;
       right: 140px;
       display: flex;
       align-items: center;

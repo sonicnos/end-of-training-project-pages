@@ -1,11 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 .menu {
   height: 100vh;
-  background-color: rgb(41, 41, 41);
+  background-color: #18181b;
   position: fixed;
   right: 0;
   top: 0;
-  color: white;
+  color: #e5e7eb;
   z-index: 3;
+  font-family: "Inter", sans-serif;
 
   .body {
     box-sizing: border-box;
@@ -13,7 +16,7 @@
     padding: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 
     .nav {
       display: flex;
@@ -21,14 +24,6 @@
       font-size: 56px;
       gap: 12px;
       margin-top: 80px;
-
-      .header {
-        color: rgb(153, 153, 153);
-        border-bottom: 1px solid rgb(153, 153, 153);
-        text-transform: uppercase;
-        font-size: 11px;
-        margin-bottom: 40px;
-      }
 
       a {
         text-decoration: none;
