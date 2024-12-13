@@ -3,7 +3,7 @@ export const projects = [
     title:
       "Quelles sont vos principales responsabilités dans votre poste actuel?",
     description:
-      "En tant que Développeur Full Stack, je travaille sur des applications web complètes, du Front End au Back End. Il arrive que je réalise aussi des sites vitrines. Je développe des applications web avec authentification en intégrant des Dashboards, Data pipelines et autres éléments créés par les Data Scientists. J'intègre également des services cloud, par exemple pour le chargement de fichiers, l'envoi d'emails, etc.Ma précédente expérience dans la gestion de serveurs et le cloud m'est utile. Le UI/UX Design m'intéresse aussi pour développer des applications intuitives que les utilisateurs vont aimer utiliser et qui répondent bien à leurs besoins et problématiques.",
+      "En tant que Développeur Full Stack, je travaille sur des applications web complètes, du Front End au Back End. Il arrive que je réalise aussi des sites vitrines. Je développe des applications web avec authentification en intégrant des Dashboards, Data pipelines et autres éléments créés par les Data Scientists. J'intègre également des services cloud, par exemple pour le chargement de fichiers, l'envoi d'emails, etc. Ma précédente expérience dans la gestion de serveurs et le cloud m'est utile. Le UI/UX Design m'intéresse aussi pour développer des applications intuitives que les utilisateurs vont aimer utiliser et qui répondent bien à leurs besoins et problématiques.",
     color: "#d1d5db",
   },
   {
@@ -23,14 +23,14 @@ export const projects = [
     title:
       "Quels sont les plus grands défis auxquels vous êtes confronté dans votre travail?",
     description:
-      "L'un des défis majeurs est de collaborer avec des Data Scientists et autres rôles différents. Nos jargons, vocabulaires et domaines de connaissances sont très différents, ce qui peut entraîner des incompréhensions. Pour cela, j'essaye de m'addapter à mes interlocuteurs et simplifier les explications quand c'est nécessaire. Avec le temps, chacun apprend beaucoup des autres, ce qui enrichit la collaboration.",
+      "L'un des défis majeurs est de collaborer avec des Data Scientists et autres rôles différents. Nos jargons, vocabulaires et domaines de connaissances sont très différents, ce qui peut entraîner des incompréhensions. Pour cela, j'essaye de m'adapter à mes interlocuteurs et simplifier les explications quand c'est nécessaire. Avec le temps, chacun apprend beaucoup des autres, ce qui enrichit la collaboration.",
     color: "#4b5563",
   },
   {
     title:
       "Pouvez-vous décrire un projet sur lequel vous avez travaillé et qui était particulièrement intéressant ou difficile?",
     description:
-      "J'ai travaillé sur une fonctionnalité permettant de charger des fichiers contenant des données, avec un historique et la possibilité de les télécharger et supprimer. Il a fallu connecter un service cloud pour le stockage, gérer la base de données pour l'historique et bien relier le Front End et Back End.",
+      "J'ai travaillé sur une fonctionnalité permettant de charger des fichiers contenant des données, avec un historique et la possibilité de les télécharger et de les supprimer. Il a fallu connecter un service cloud pour le stockage, gérer la base de données pour l'historique et bien relier le Front End et Back End.",
     color: "#374151",
   },
 ];
