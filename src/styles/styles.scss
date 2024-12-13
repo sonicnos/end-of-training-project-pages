@@ -11,7 +11,8 @@ section {
   font-family: "Inter", sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  gap: 150px;
+  justify-content: center;
 
   .personna {
     display: flex;
