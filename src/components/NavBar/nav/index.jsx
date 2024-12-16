@@ -9,19 +9,19 @@ import Curve from "../Curve";
 const navItems = [
   {
     title: "Home",
-    href: "/",
+    href: process.env.NEXT_PUBLIC_APP_ENV === "DEV" ? "/" : "/loukas",
   },
   {
     title: "Interview",
-    href: "/interview",
+    href: process.env.NEXT_PUBLIC_APP_ENV === "DEV" ? "/interview" : "/loukas/interview",
   },
   {
     title: "Exposition",
-    href: "/exposition",
+    href: process.env.NEXT_PUBLIC_APP_ENV === "DEV" ? "/exposition" : "/loukas/exposition",
   },
   {
     title: "Conclusion",
-    href: "/conclusion",
+    href: process.env.NEXT_PUBLIC_APP_ENV === "DEV" ? "/conclusion" : "/loukas/conclusion",
   },
 ];
 
