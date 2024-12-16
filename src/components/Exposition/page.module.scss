@@ -37,3 +37,22 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .mainExpo {
+    .expositionDetails {
+      .container {
+        .title {
+          font-size: 1.75rem;
+        }
+        .description {
+          font-size: 1.25rem;
+        }
+      }
+      .link {
+        bottom: -2600px;
+        right: 10px;
+      }
+    }
+  }
+}

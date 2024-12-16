@@ -50,7 +50,7 @@
   right: 160px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 768px) {
   .container .body {
     font-size: 2rem;
     font-weight: 900;

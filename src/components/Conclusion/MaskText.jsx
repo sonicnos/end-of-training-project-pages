@@ -33,7 +33,7 @@ const MaskText = () => {
     <div ref={ref} className={styles.bodyText}>
       {phrases.map((phrase, index) => {
         return (
-          <div key={index} className={styles.lineMask}>
+          <div key={index} className={styles.lineMaskText}>
             <motion.p
               custom={index}
               variants={animation}

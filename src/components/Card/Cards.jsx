@@ -42,7 +42,14 @@ export default function Cards() {
           />
         );
       })}
-      <Link className={styles.link} href="/exposition">
+      <Link
+        className={styles.link}
+        href={
+          process.env.NEXT_PUBLIC_APP_ENV === "DEV"
+            ? "/exposition"
+            : "/loukas/exposition"
+        }
+      >
         <ButtonMagnetic>
           <Button />
         </ButtonMagnetic>

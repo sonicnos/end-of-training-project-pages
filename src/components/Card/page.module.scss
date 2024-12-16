@@ -1,10 +1,22 @@
-.link {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 150px;
-  width: 150px;
-  bottom: -4700px;
-  right: 163px;
+.cards {
+  position: relative;
+  .link {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    bottom: 50px;
+    right: 163px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    .link {
+      bottom: 0px;
+      right: 0px;
+    }
+  }
 }

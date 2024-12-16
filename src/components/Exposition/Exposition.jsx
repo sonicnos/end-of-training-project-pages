@@ -59,7 +59,14 @@ export default function Exposition() {
             de cette ville fascinante.
           </p>
         </motion.div>
-        <Link className={styles.link} href="/conclusion">
+        <Link
+          className={styles.link}
+          href={
+            process.env.NEXT_PUBLIC_APP_ENV === "DEV"
+              ? "/conclusion"
+              : "/loukas/conclusion"
+          }
+        >
           <ButtonMagnetic>
             <Button />
           </ButtonMagnetic>

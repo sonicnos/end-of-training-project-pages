@@ -26,7 +26,7 @@ const MaskTitle = () => {
     <div ref={ref} className={styles.bodyTitle}>
       {phrases.map((phrase, index) => {
         return (
-          <div key={index} className={styles.lineMask}>
+          <div key={index} className={styles.lineMaskTitle}>
             <motion.p
               custom={index}
               variants={animation}
