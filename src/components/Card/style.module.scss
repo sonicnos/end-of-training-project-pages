@@ -39,4 +39,9 @@
       }
     }
   }
+  @media screen and (max-width: 390px) {
+    .card {
+      height: 1000px;
+    }
+  }
 }

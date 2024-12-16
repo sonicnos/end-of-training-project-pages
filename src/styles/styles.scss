@@ -81,3 +81,43 @@ section {
   font-weight: 700;
   color: #000000;
 }
+
+@media screen and (max-width: 390px) {
+  .interview-section {
+    display: flex;
+    // gap: 100px;
+    height: 2000px;
+
+    .personna {
+      background-color: aqua;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      height: 100%;
+      font-size: 2rem;
+    }
+
+    .photo {
+      margin: 0 auto;
+      .avatar-photo {
+        width: 200px;
+        height: 200px;
+      }
+    }
+  }
+
+  .interview-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 30px;
+
+    .avatar-details {
+      width: 100%;
+      gap: 10px;
+    }
+  }
+  .description-job {
+    display: none;
+  }
+}

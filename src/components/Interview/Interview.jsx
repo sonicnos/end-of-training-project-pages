@@ -76,7 +76,7 @@ const Interview = () => {
             },
           }}
         >
-          <div className="description-job ">
+          <div className="description-job">
             Je suis Eli, D&eacute;veloppeur Full Stack chez Valkuren, une
             soci&eacute;t&eacute; sp&eacute;cialis&eacute;e dans le
             d&eacute;veloppement de solutions Big Data. Nos activit&eacute;s
